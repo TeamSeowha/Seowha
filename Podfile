@@ -6,6 +6,7 @@ target 'seowha' do
   use_frameworks!
 
   # Pods for seowha
+  pod 'Firebase/Core'
   pod 'Firebase/Auth'
 
   target 'seowhaTests' do
