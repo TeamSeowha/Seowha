@@ -7,137 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD4B1DB021083ECE00C67E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B1DAF21083ECE00C67E2E /* AppDelegate.swift */; };
-		DD4B1DB221083ECE00C67E2E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B1DB121083ECE00C67E2E /* FirstViewController.swift */; };
-		DD4B1DB421083ECE00C67E2E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B1DB321083ECE00C67E2E /* SecondViewController.swift */; };
-		DD4B1DB721083ECE00C67E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4B1DB521083ECE00C67E2E /* Main.storyboard */; };
-		DD4B1DB921083ECF00C67E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4B1DB821083ECF00C67E2E /* Assets.xcassets */; };
-		DD4B1DBC21083ECF00C67E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4B1DBA21083ECF00C67E2E /* LaunchScreen.storyboard */; };
-		DD4B1DC721083ECF00C67E2E /* seowhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B1DC621083ECF00C67E2E /* seowhaTests.swift */; };
-		DD4B1DD221083ECF00C67E2E /* seowhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B1DD121083ECF00C67E2E /* seowhaUITests.swift */; };
+		CA3B9F38E0EE7C244F64F14B /* Pods_seowhaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4032A48DB4FBECCA4A84361A /* Pods_seowhaTests.framework */; };
+		DD2A59832152B50B004B6023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A59822152B50B004B6023 /* AppDelegate.swift */; };
+		DD2A59852152B50B004B6023 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A59842152B50B004B6023 /* FirstViewController.swift */; };
+		DD2A59872152B50B004B6023 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A59862152B50B004B6023 /* SecondViewController.swift */; };
+		DD2A598A2152B50B004B6023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A59882152B50B004B6023 /* Main.storyboard */; };
+		DD2A598C2152B50C004B6023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2A598B2152B50C004B6023 /* Assets.xcassets */; };
+		DD2A598F2152B50C004B6023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A598D2152B50C004B6023 /* LaunchScreen.storyboard */; };
+		DD2A599A2152B50C004B6023 /* seowhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A59992152B50C004B6023 /* seowhaTests.swift */; };
+		DD2A59A52152B50C004B6023 /* seowhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A59A42152B50C004B6023 /* seowhaUITests.swift */; };
+		DD6B89392152BB6C00E94265 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD6B89382152BB6C00E94265 /* 1.jpg */; };
+		F0EDE7680B7A16C91E7915CC /* Pods_seowha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DAB09E64DD1B8D8986495 /* Pods_seowha.framework */; };
+		F824891F63281034724D6273 /* Pods_seowhaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD0E8D8BF198274B11BF867 /* Pods_seowhaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DD4B1DC321083ECF00C67E2E /* PBXContainerItemProxy */ = {
+		DD2A59962152B50C004B6023 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DD4B1DA421083ECE00C67E2E /* Project object */;
+			containerPortal = DD2A59772152B50B004B6023 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD4B1DAB21083ECE00C67E2E;
+			remoteGlobalIDString = DD2A597E2152B50B004B6023;
 			remoteInfo = seowha;
 		};
-		DD4B1DCE21083ECF00C67E2E /* PBXContainerItemProxy */ = {
+		DD2A59A12152B50C004B6023 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DD4B1DA421083ECE00C67E2E /* Project object */;
+			containerPortal = DD2A59772152B50B004B6023 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD4B1DAB21083ECE00C67E2E;
+			remoteGlobalIDString = DD2A597E2152B50B004B6023;
 			remoteInfo = seowha;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD4B1DAC21083ECE00C67E2E /* seowha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seowha.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD4B1DAF21083ECE00C67E2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD4B1DB121083ECE00C67E2E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DD4B1DB321083ECE00C67E2E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		DD4B1DB621083ECE00C67E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD4B1DB821083ECF00C67E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD4B1DBB21083ECF00C67E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DD4B1DBD21083ECF00C67E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD4B1DC221083ECF00C67E2E /* seowhaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seowhaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD4B1DC621083ECF00C67E2E /* seowhaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seowhaTests.swift; sourceTree = "<group>"; };
-		DD4B1DC821083ECF00C67E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD4B1DCD21083ECF00C67E2E /* seowhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seowhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD4B1DD121083ECF00C67E2E /* seowhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seowhaUITests.swift; sourceTree = "<group>"; };
-		DD4B1DD321083ECF00C67E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B866EBC36B3866E13273C5E /* Pods-seowha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seowha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seowha/Pods-seowha.debug.xcconfig"; sourceTree = "<group>"; };
+		4032A48DB4FBECCA4A84361A /* Pods_seowhaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_seowhaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5D350212CC3B83E26BC552 /* Pods-seowhaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seowhaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-seowhaTests/Pods-seowhaTests.release.xcconfig"; sourceTree = "<group>"; };
+		60F57809DF718D63D73D4542 /* Pods-seowhaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seowhaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seowhaTests/Pods-seowhaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6126AD1B15423F78C0C4B482 /* Pods-seowhaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seowhaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seowhaUITests/Pods-seowhaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9DAB09E64DD1B8D8986495 /* Pods_seowha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_seowha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD0E8D8BF198274B11BF867 /* Pods_seowhaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_seowhaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBF9D6B380F4CD7B0054062 /* Pods-seowha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seowha.release.xcconfig"; path = "Pods/Target Support Files/Pods-seowha/Pods-seowha.release.xcconfig"; sourceTree = "<group>"; };
+		DC6FBE43F2D351680DA39AF6 /* Pods-seowhaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seowhaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-seowhaUITests/Pods-seowhaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD2A597F2152B50B004B6023 /* seowha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seowha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2A59822152B50B004B6023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD2A59842152B50B004B6023 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DD2A59862152B50B004B6023 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DD2A59892152B50B004B6023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD2A598B2152B50C004B6023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD2A598E2152B50C004B6023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD2A59902152B50C004B6023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2A59952152B50C004B6023 /* seowhaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seowhaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2A59992152B50C004B6023 /* seowhaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seowhaTests.swift; sourceTree = "<group>"; };
+		DD2A599B2152B50C004B6023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2A59A02152B50C004B6023 /* seowhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seowhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2A59A42152B50C004B6023 /* seowhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seowhaUITests.swift; sourceTree = "<group>"; };
+		DD2A59A62152B50C004B6023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6B89382152BB6C00E94265 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DD4B1DA921083ECE00C67E2E /* Frameworks */ = {
+		DD2A597C2152B50B004B6023 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0EDE7680B7A16C91E7915CC /* Pods_seowha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD4B1DBF21083ECF00C67E2E /* Frameworks */ = {
+		DD2A59922152B50C004B6023 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3B9F38E0EE7C244F64F14B /* Pods_seowhaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD4B1DCA21083ECF00C67E2E /* Frameworks */ = {
+		DD2A599D2152B50C004B6023 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F824891F63281034724D6273 /* Pods_seowhaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DD4B1DA321083ECE00C67E2E = {
+		BC5140A85DB7F3A658A683F7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DD4B1DAE21083ECE00C67E2E /* seowha */,
-				DD4B1DC521083ECF00C67E2E /* seowhaTests */,
-				DD4B1DD021083ECF00C67E2E /* seowhaUITests */,
-				DD4B1DAD21083ECE00C67E2E /* Products */,
+				0B866EBC36B3866E13273C5E /* Pods-seowha.debug.xcconfig */,
+				BCBF9D6B380F4CD7B0054062 /* Pods-seowha.release.xcconfig */,
+				60F57809DF718D63D73D4542 /* Pods-seowhaTests.debug.xcconfig */,
+				5E5D350212CC3B83E26BC552 /* Pods-seowhaTests.release.xcconfig */,
+				6126AD1B15423F78C0C4B482 /* Pods-seowhaUITests.debug.xcconfig */,
+				DC6FBE43F2D351680DA39AF6 /* Pods-seowhaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD2A59762152B50B004B6023 = {
+			isa = PBXGroup;
+			children = (
+				DD2A59812152B50B004B6023 /* seowha */,
+				DD2A59982152B50C004B6023 /* seowhaTests */,
+				DD2A59A32152B50C004B6023 /* seowhaUITests */,
+				DD2A59802152B50B004B6023 /* Products */,
+				BC5140A85DB7F3A658A683F7 /* Pods */,
+				F7F8D33B9E32E14E2AA6B249 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		DD4B1DAD21083ECE00C67E2E /* Products */ = {
+		DD2A59802152B50B004B6023 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD4B1DAC21083ECE00C67E2E /* seowha.app */,
-				DD4B1DC221083ECF00C67E2E /* seowhaTests.xctest */,
-				DD4B1DCD21083ECF00C67E2E /* seowhaUITests.xctest */,
+				DD2A597F2152B50B004B6023 /* seowha.app */,
+				DD2A59952152B50C004B6023 /* seowhaTests.xctest */,
+				DD2A59A02152B50C004B6023 /* seowhaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD4B1DAE21083ECE00C67E2E /* seowha */ = {
+		DD2A59812152B50B004B6023 /* seowha */ = {
 			isa = PBXGroup;
 			children = (
-				DD4B1DAF21083ECE00C67E2E /* AppDelegate.swift */,
-				DD4B1DB121083ECE00C67E2E /* FirstViewController.swift */,
-				DD4B1DB321083ECE00C67E2E /* SecondViewController.swift */,
-				DD4B1DB521083ECE00C67E2E /* Main.storyboard */,
-				DD4B1DB821083ECF00C67E2E /* Assets.xcassets */,
-				DD4B1DBA21083ECF00C67E2E /* LaunchScreen.storyboard */,
-				DD4B1DBD21083ECF00C67E2E /* Info.plist */,
+				DD6B89382152BB6C00E94265 /* 1.jpg */,
+				DD2A59822152B50B004B6023 /* AppDelegate.swift */,
+				DD2A59842152B50B004B6023 /* FirstViewController.swift */,
+				DD2A59862152B50B004B6023 /* SecondViewController.swift */,
+				DD2A59882152B50B004B6023 /* Main.storyboard */,
+				DD2A598B2152B50C004B6023 /* Assets.xcassets */,
+				DD2A598D2152B50C004B6023 /* LaunchScreen.storyboard */,
+				DD2A59902152B50C004B6023 /* Info.plist */,
 			);
 			path = seowha;
 			sourceTree = "<group>";
 		};
-		DD4B1DC521083ECF00C67E2E /* seowhaTests */ = {
+		DD2A59982152B50C004B6023 /* seowhaTests */ = {
 			isa = PBXGroup;
 			children = (
-				DD4B1DC621083ECF00C67E2E /* seowhaTests.swift */,
-				DD4B1DC821083ECF00C67E2E /* Info.plist */,
+				DD2A59992152B50C004B6023 /* seowhaTests.swift */,
+				DD2A599B2152B50C004B6023 /* Info.plist */,
 			);
 			path = seowhaTests;
 			sourceTree = "<group>";
 		};
-		DD4B1DD021083ECF00C67E2E /* seowhaUITests */ = {
+		DD2A59A32152B50C004B6023 /* seowhaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DD4B1DD121083ECF00C67E2E /* seowhaUITests.swift */,
-				DD4B1DD321083ECF00C67E2E /* Info.plist */,
+				DD2A59A42152B50C004B6023 /* seowhaUITests.swift */,
+				DD2A59A62152B50C004B6023 /* Info.plist */,
 			);
 			path = seowhaUITests;
+			sourceTree = "<group>";
+		};
+		F7F8D33B9E32E14E2AA6B249 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DAB09E64DD1B8D8986495 /* Pods_seowha.framework */,
+				4032A48DB4FBECCA4A84361A /* Pods_seowhaTests.framework */,
+				AFD0E8D8BF198274B11BF867 /* Pods_seowhaUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD4B1DAB21083ECE00C67E2E /* seowha */ = {
+		DD2A597E2152B50B004B6023 /* seowha */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD4B1DD621083ECF00C67E2E /* Build configuration list for PBXNativeTarget "seowha" */;
+			buildConfigurationList = DD2A59A92152B50C004B6023 /* Build configuration list for PBXNativeTarget "seowha" */;
 			buildPhases = (
-				DD4B1DA821083ECE00C67E2E /* Sources */,
-				DD4B1DA921083ECE00C67E2E /* Frameworks */,
-				DD4B1DAA21083ECE00C67E2E /* Resources */,
+				A3D61CE7F09C81A7E734D4C4 /* [CP] Check Pods Manifest.lock */,
+				DD2A597B2152B50B004B6023 /* Sources */,
+				DD2A597C2152B50B004B6023 /* Frameworks */,
+				DD2A597D2152B50B004B6023 /* Resources */,
+				5DDBCECDAC0B69B91EB256B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,69 +190,71 @@
 			);
 			name = seowha;
 			productName = seowha;
-			productReference = DD4B1DAC21083ECE00C67E2E /* seowha.app */;
+			productReference = DD2A597F2152B50B004B6023 /* seowha.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD4B1DC121083ECF00C67E2E /* seowhaTests */ = {
+		DD2A59942152B50C004B6023 /* seowhaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD4B1DD921083ECF00C67E2E /* Build configuration list for PBXNativeTarget "seowhaTests" */;
+			buildConfigurationList = DD2A59AC2152B50C004B6023 /* Build configuration list for PBXNativeTarget "seowhaTests" */;
 			buildPhases = (
-				DD4B1DBE21083ECF00C67E2E /* Sources */,
-				DD4B1DBF21083ECF00C67E2E /* Frameworks */,
-				DD4B1DC021083ECF00C67E2E /* Resources */,
+				458A2A9A6AC82215679C6D38 /* [CP] Check Pods Manifest.lock */,
+				DD2A59912152B50C004B6023 /* Sources */,
+				DD2A59922152B50C004B6023 /* Frameworks */,
+				DD2A59932152B50C004B6023 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD4B1DC421083ECF00C67E2E /* PBXTargetDependency */,
+				DD2A59972152B50C004B6023 /* PBXTargetDependency */,
 			);
 			name = seowhaTests;
 			productName = seowhaTests;
-			productReference = DD4B1DC221083ECF00C67E2E /* seowhaTests.xctest */;
+			productReference = DD2A59952152B50C004B6023 /* seowhaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DD4B1DCC21083ECF00C67E2E /* seowhaUITests */ = {
+		DD2A599F2152B50C004B6023 /* seowhaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD4B1DDC21083ECF00C67E2E /* Build configuration list for PBXNativeTarget "seowhaUITests" */;
+			buildConfigurationList = DD2A59AF2152B50C004B6023 /* Build configuration list for PBXNativeTarget "seowhaUITests" */;
 			buildPhases = (
-				DD4B1DC921083ECF00C67E2E /* Sources */,
-				DD4B1DCA21083ECF00C67E2E /* Frameworks */,
-				DD4B1DCB21083ECF00C67E2E /* Resources */,
+				978B43D6B7AFBD7E9F929A65 /* [CP] Check Pods Manifest.lock */,
+				DD2A599C2152B50C004B6023 /* Sources */,
+				DD2A599D2152B50C004B6023 /* Frameworks */,
+				DD2A599E2152B50C004B6023 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD4B1DCF21083ECF00C67E2E /* PBXTargetDependency */,
+				DD2A59A22152B50C004B6023 /* PBXTargetDependency */,
 			);
 			name = seowhaUITests;
 			productName = seowhaUITests;
-			productReference = DD4B1DCD21083ECF00C67E2E /* seowhaUITests.xctest */;
+			productReference = DD2A59A02152B50C004B6023 /* seowhaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DD4B1DA421083ECE00C67E2E /* Project object */ = {
+		DD2A59772152B50B004B6023 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = TeamSeowha;
 				TargetAttributes = {
-					DD4B1DAB21083ECE00C67E2E = {
-						CreatedOnToolsVersion = 9.4.1;
+					DD2A597E2152B50B004B6023 = {
+						CreatedOnToolsVersion = 10.0;
 					};
-					DD4B1DC121083ECF00C67E2E = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = DD4B1DAB21083ECE00C67E2E;
+					DD2A59942152B50C004B6023 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DD2A597E2152B50B004B6023;
 					};
-					DD4B1DCC21083ECF00C67E2E = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = DD4B1DAB21083ECE00C67E2E;
+					DD2A599F2152B50C004B6023 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DD2A597E2152B50B004B6023;
 					};
 				};
 			};
-			buildConfigurationList = DD4B1DA721083ECE00C67E2E /* Build configuration list for PBXProject "seowha" */;
+			buildConfigurationList = DD2A597A2152B50B004B6023 /* Build configuration list for PBXProject "seowha" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +262,38 @@
 				en,
 				Base,
 			);
-			mainGroup = DD4B1DA321083ECE00C67E2E;
-			productRefGroup = DD4B1DAD21083ECE00C67E2E /* Products */;
+			mainGroup = DD2A59762152B50B004B6023;
+			productRefGroup = DD2A59802152B50B004B6023 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD4B1DAB21083ECE00C67E2E /* seowha */,
-				DD4B1DC121083ECF00C67E2E /* seowhaTests */,
-				DD4B1DCC21083ECF00C67E2E /* seowhaUITests */,
+				DD2A597E2152B50B004B6023 /* seowha */,
+				DD2A59942152B50C004B6023 /* seowhaTests */,
+				DD2A599F2152B50C004B6023 /* seowhaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DD4B1DAA21083ECE00C67E2E /* Resources */ = {
+		DD2A597D2152B50B004B6023 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4B1DBC21083ECF00C67E2E /* LaunchScreen.storyboard in Resources */,
-				DD4B1DB921083ECF00C67E2E /* Assets.xcassets in Resources */,
-				DD4B1DB721083ECE00C67E2E /* Main.storyboard in Resources */,
+				DD2A598F2152B50C004B6023 /* LaunchScreen.storyboard in Resources */,
+				DD6B89392152BB6C00E94265 /* 1.jpg in Resources */,
+				DD2A598C2152B50C004B6023 /* Assets.xcassets in Resources */,
+				DD2A598A2152B50B004B6023 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD4B1DC021083ECF00C67E2E /* Resources */ = {
+		DD2A59932152B50C004B6023 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD4B1DCB21083ECF00C67E2E /* Resources */ = {
+		DD2A599E2152B50C004B6023 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +302,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		458A2A9A6AC82215679C6D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-seowhaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DDBCECDAC0B69B91EB256B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-seowha/Pods-seowha-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seowha/Pods-seowha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		978B43D6B7AFBD7E9F929A65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-seowhaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D61CE7F09C81A7E734D4C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-seowha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		DD4B1DA821083ECE00C67E2E /* Sources */ = {
+		DD2A597B2152B50B004B6023 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4B1DB421083ECE00C67E2E /* SecondViewController.swift in Sources */,
-				DD4B1DB021083ECE00C67E2E /* AppDelegate.swift in Sources */,
-				DD4B1DB221083ECE00C67E2E /* FirstViewController.swift in Sources */,
+				DD2A59872152B50B004B6023 /* SecondViewController.swift in Sources */,
+				DD2A59832152B50B004B6023 /* AppDelegate.swift in Sources */,
+				DD2A59852152B50B004B6023 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD4B1DBE21083ECF00C67E2E /* Sources */ = {
+		DD2A59912152B50C004B6023 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4B1DC721083ECF00C67E2E /* seowhaTests.swift in Sources */,
+				DD2A599A2152B50C004B6023 /* seowhaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD4B1DC921083ECF00C67E2E /* Sources */ = {
+		DD2A599C2152B50C004B6023 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4B1DD221083ECF00C67E2E /* seowhaUITests.swift in Sources */,
+				DD2A59A52152B50C004B6023 /* seowhaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DD4B1DC421083ECF00C67E2E /* PBXTargetDependency */ = {
+		DD2A59972152B50C004B6023 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD4B1DAB21083ECE00C67E2E /* seowha */;
-			targetProxy = DD4B1DC321083ECF00C67E2E /* PBXContainerItemProxy */;
+			target = DD2A597E2152B50B004B6023 /* seowha */;
+			targetProxy = DD2A59962152B50C004B6023 /* PBXContainerItemProxy */;
 		};
-		DD4B1DCF21083ECF00C67E2E /* PBXTargetDependency */ = {
+		DD2A59A22152B50C004B6023 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DD4B1DAB21083ECE00C67E2E /* seowha */;
-			targetProxy = DD4B1DCE21083ECF00C67E2E /* PBXContainerItemProxy */;
+			target = DD2A597E2152B50B004B6023 /* seowha */;
+			targetProxy = DD2A59A12152B50C004B6023 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DD4B1DB521083ECE00C67E2E /* Main.storyboard */ = {
+		DD2A59882152B50B004B6023 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD4B1DB621083ECE00C67E2E /* Base */,
+				DD2A59892152B50B004B6023 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DD4B1DBA21083ECF00C67E2E /* LaunchScreen.storyboard */ = {
+		DD2A598D2152B50C004B6023 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD4B1DBB21083ECF00C67E2E /* Base */,
+				DD2A598E2152B50C004B6023 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +457,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DD4B1DD421083ECF00C67E2E /* Debug */ = {
+		DD2A59A72152B50C004B6023 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,8 +508,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -376,7 +518,7 @@
 			};
 			name = Debug;
 		};
-		DD4B1DD521083ECF00C67E2E /* Release */ = {
+		DD2A59A82152B50C004B6023 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -421,8 +563,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -430,46 +573,52 @@
 			};
 			name = Release;
 		};
-		DD4B1DD721083ECF00C67E2E /* Debug */ = {
+		DD2A59AA2152B50C004B6023 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B866EBC36B3866E13273C5E /* Pods-seowha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BHMK6XA9;
 				INFOPLIST_FILE = seowha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teamseowha.seowha;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.teamseowha.seowha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DD4B1DD821083ECF00C67E2E /* Release */ = {
+		DD2A59AB2152B50C004B6023 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCBF9D6B380F4CD7B0054062 /* Pods-seowha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BHMK6XA9;
 				INFOPLIST_FILE = seowha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teamseowha.seowha;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.teamseowha.seowha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		DD4B1DDA21083ECF00C67E2E /* Debug */ = {
+		DD2A59AD2152B50C004B6023 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F57809DF718D63D73D4542 /* Pods-seowhaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BHMK6XA9;
 				INFOPLIST_FILE = seowhaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,18 +627,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamseowha.seowhaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seowha.app/seowha";
 			};
 			name = Debug;
 		};
-		DD4B1DDB21083ECF00C67E2E /* Release */ = {
+		DD2A59AE2152B50C004B6023 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5D350212CC3B83E26BC552 /* Pods-seowhaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BHMK6XA9;
 				INFOPLIST_FILE = seowhaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,17 +649,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamseowha.seowhaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seowha.app/seowha";
 			};
 			name = Release;
 		};
-		DD4B1DDD21083ECF00C67E2E /* Debug */ = {
+		DD2A59B02152B50C004B6023 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6126AD1B15423F78C0C4B482 /* Pods-seowhaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BHMK6XA9;
 				INFOPLIST_FILE = seowhaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,17 +670,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamseowha.seowhaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = seowha;
 			};
 			name = Debug;
 		};
-		DD4B1DDE21083ECF00C67E2E /* Release */ = {
+		DD2A59B12152B50C004B6023 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6FBE43F2D351680DA39AF6 /* Pods-seowhaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45BHMK6XA9;
 				INFOPLIST_FILE = seowhaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -536,7 +691,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamseowha.seowhaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = seowha;
 			};
@@ -545,43 +700,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD4B1DA721083ECE00C67E2E /* Build configuration list for PBXProject "seowha" */ = {
+		DD2A597A2152B50B004B6023 /* Build configuration list for PBXProject "seowha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD4B1DD421083ECF00C67E2E /* Debug */,
-				DD4B1DD521083ECF00C67E2E /* Release */,
+				DD2A59A72152B50C004B6023 /* Debug */,
+				DD2A59A82152B50C004B6023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD4B1DD621083ECF00C67E2E /* Build configuration list for PBXNativeTarget "seowha" */ = {
+		DD2A59A92152B50C004B6023 /* Build configuration list for PBXNativeTarget "seowha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD4B1DD721083ECF00C67E2E /* Debug */,
-				DD4B1DD821083ECF00C67E2E /* Release */,
+				DD2A59AA2152B50C004B6023 /* Debug */,
+				DD2A59AB2152B50C004B6023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD4B1DD921083ECF00C67E2E /* Build configuration list for PBXNativeTarget "seowhaTests" */ = {
+		DD2A59AC2152B50C004B6023 /* Build configuration list for PBXNativeTarget "seowhaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD4B1DDA21083ECF00C67E2E /* Debug */,
-				DD4B1DDB21083ECF00C67E2E /* Release */,
+				DD2A59AD2152B50C004B6023 /* Debug */,
+				DD2A59AE2152B50C004B6023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD4B1DDC21083ECF00C67E2E /* Build configuration list for PBXNativeTarget "seowhaUITests" */ = {
+		DD2A59AF2152B50C004B6023 /* Build configuration list for PBXNativeTarget "seowhaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD4B1DDD21083ECF00C67E2E /* Debug */,
-				DD4B1DDE21083ECF00C67E2E /* Release */,
+				DD2A59B02152B50C004B6023 /* Debug */,
+				DD2A59B12152B50C004B6023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DD4B1DA421083ECE00C67E2E /* Project object */;
+	rootObject = DD2A59772152B50B004B6023 /* Project object */;
 }
