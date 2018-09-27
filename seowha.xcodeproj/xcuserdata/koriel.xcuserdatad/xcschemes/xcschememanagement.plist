@@ -7,7 +7,25 @@
 		<key>seowha.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>33</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DD2A597E2152B50B004B6023</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD2A59942152B50C004B6023</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD2A599F2152B50C004B6023</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

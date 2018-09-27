@@ -16,8 +16,14 @@
 		DD2A598F2152B50C004B6023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2A598D2152B50C004B6023 /* LaunchScreen.storyboard */; };
 		DD2A599A2152B50C004B6023 /* seowhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A59992152B50C004B6023 /* seowhaTests.swift */; };
 		DD2A59A52152B50C004B6023 /* seowhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A59A42152B50C004B6023 /* seowhaUITests.swift */; };
-		DD6B89392152BB6C00E94265 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD6B89382152BB6C00E94265 /* 1.jpg */; };
 		DD6C7F152152C28200AC8A70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD6C7F142152C28200AC8A70 /* GoogleService-Info.plist */; };
+		DD79FCFE215D170B00C88D6E /* EmailSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD79FCFD215D170B00C88D6E /* EmailSignInViewController.swift */; };
+		DD79FD00215D198500C88D6E /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD79FCFF215D198500C88D6E /* UITextFieldExtension.swift */; };
+		DDE05949215A97030034B221 /* YunTaemin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDE05948215A97030034B221 /* YunTaemin.ttf */; };
+		DDE0594B215A980F0034B221 /* NanumSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDE0594A215A980F0034B221 /* NanumSquareRegular.ttf */; };
+		DDE0594D215A9A040034B221 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0594C215A9A040034B221 /* SignInViewController.swift */; };
+		DDE0594F215BD2BA0034B221 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE0594E215BD2BA0034B221 /* SignUpViewController.swift */; };
+		DDE05951215CE7E90034B221 /* NanumSquareBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDE05950215CE7E90034B221 /* NanumSquareBold.ttf */; };
 		F0EDE7680B7A16C91E7915CC /* Pods_seowha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DAB09E64DD1B8D8986495 /* Pods_seowha.framework */; };
 		F824891F63281034724D6273 /* Pods_seowhaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD0E8D8BF198274B11BF867 /* Pods_seowhaUITests.framework */; };
 /* End PBXBuildFile section */
@@ -63,8 +69,15 @@
 		DD2A59A02152B50C004B6023 /* seowhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seowhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2A59A42152B50C004B6023 /* seowhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seowhaUITests.swift; sourceTree = "<group>"; };
 		DD2A59A62152B50C004B6023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD6B89382152BB6C00E94265 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		DD6C7F142152C28200AC8A70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD6C7F1A2152CA9C00AC8A70 /* seowha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = seowha.entitlements; sourceTree = "<group>"; };
+		DD79FCFD215D170B00C88D6E /* EmailSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSignInViewController.swift; sourceTree = "<group>"; };
+		DD79FCFF215D198500C88D6E /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		DDE05948215A97030034B221 /* YunTaemin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = YunTaemin.ttf; sourceTree = "<group>"; };
+		DDE0594A215A980F0034B221 /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
+		DDE0594C215A9A040034B221 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DDE0594E215BD2BA0034B221 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DDE05950215CE7E90034B221 /* NanumSquareBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareBold.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,15 +146,22 @@
 		DD2A59812152B50B004B6023 /* seowha */ = {
 			isa = PBXGroup;
 			children = (
+				DDE05948215A97030034B221 /* YunTaemin.ttf */,
+				DDE0594A215A980F0034B221 /* NanumSquareRegular.ttf */,
+				DDE05950215CE7E90034B221 /* NanumSquareBold.ttf */,
+				DD6C7F1A2152CA9C00AC8A70 /* seowha.entitlements */,
 				DD6C7F142152C28200AC8A70 /* GoogleService-Info.plist */,
-				DD6B89382152BB6C00E94265 /* 1.jpg */,
 				DD2A59822152B50B004B6023 /* AppDelegate.swift */,
+				DDE0594C215A9A040034B221 /* SignInViewController.swift */,
+				DDE0594E215BD2BA0034B221 /* SignUpViewController.swift */,
+				DD79FCFD215D170B00C88D6E /* EmailSignInViewController.swift */,
 				DD2A59842152B50B004B6023 /* FirstViewController.swift */,
 				DD2A59862152B50B004B6023 /* SecondViewController.swift */,
 				DD2A59882152B50B004B6023 /* Main.storyboard */,
 				DD2A598B2152B50C004B6023 /* Assets.xcassets */,
 				DD2A598D2152B50C004B6023 /* LaunchScreen.storyboard */,
 				DD2A59902152B50C004B6023 /* Info.plist */,
+				DD79FCFF215D198500C88D6E /* UITextFieldExtension.swift */,
 			);
 			path = seowha;
 			sourceTree = "<group>";
@@ -186,6 +206,7 @@
 				DD2A597C2152B50B004B6023 /* Frameworks */,
 				DD2A597D2152B50B004B6023 /* Resources */,
 				5DDBCECDAC0B69B91EB256B2 /* [CP] Embed Pods Frameworks */,
+				2D8AFE79CC272C4A2DF41BDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +267,11 @@
 				TargetAttributes = {
 					DD2A597E2152B50B004B6023 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					DD2A59942152B50C004B6023 = {
 						CreatedOnToolsVersion = 10.0;
@@ -282,8 +308,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE05951215CE7E90034B221 /* NanumSquareBold.ttf in Resources */,
+				DDE05949215A97030034B221 /* YunTaemin.ttf in Resources */,
 				DD2A598F2152B50C004B6023 /* LaunchScreen.storyboard in Resources */,
-				DD6B89392152BB6C00E94265 /* 1.jpg in Resources */,
+				DDE0594B215A980F0034B221 /* NanumSquareRegular.ttf in Resources */,
 				DD6C7F152152C28200AC8A70 /* GoogleService-Info.plist in Resources */,
 				DD2A598C2152B50C004B6023 /* Assets.xcassets in Resources */,
 				DD2A598A2152B50B004B6023 /* Main.storyboard in Resources */,
@@ -307,6 +335,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2D8AFE79CC272C4A2DF41BDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-seowha/Pods-seowha-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seowha/Pods-seowha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		458A2A9A6AC82215679C6D38 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,7 +388,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-seowha/Pods-seowha-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -346,7 +405,16 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -406,9 +474,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE0594D215A9A040034B221 /* SignInViewController.swift in Sources */,
 				DD2A59872152B50B004B6023 /* SecondViewController.swift in Sources */,
+				DD79FD00215D198500C88D6E /* UITextFieldExtension.swift in Sources */,
 				DD2A59832152B50B004B6023 /* AppDelegate.swift in Sources */,
+				DD79FCFE215D170B00C88D6E /* EmailSignInViewController.swift in Sources */,
 				DD2A59852152B50B004B6023 /* FirstViewController.swift in Sources */,
+				DDE0594F215BD2BA0034B221 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +656,7 @@
 			baseConfigurationReference = 0B866EBC36B3866E13273C5E /* Pods-seowha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = seowha/seowha.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45BHMK6XA9;
 				INFOPLIST_FILE = seowha/Info.plist;
@@ -603,6 +676,7 @@
 			baseConfigurationReference = BCBF9D6B380F4CD7B0054062 /* Pods-seowha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = seowha/seowha.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45BHMK6XA9;
 				INFOPLIST_FILE = seowha/Info.plist;

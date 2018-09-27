@@ -9,16 +9,40 @@
 import UIKit
 import Firebase
 
+import GoogleSignIn
+import FBSDKCoreKit
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Use Firebase library to configure APIs
         FirebaseApp.configure()
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
+        
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let signInView = storyBoard.instantiateViewController(withIdentifier: "SignInView")
+        let mainView = storyBoard.instantiateViewController(withIdentifier: "MainView")
+        
+        if Auth.auth().currentUser != nil {
+            configureWindowAndMakeVisible(rootViewController: mainView)
+        } else {
+            configureWindowAndMakeVisible(rootViewController: signInView)
+        }
+        
         return true
+    }
+    
+    func configureWindowAndMakeVisible(rootViewController: UIViewController) {
+        if let app = UIApplication.shared.delegate as? AppDelegate, let window = app.window {
+            window.rootViewController = rootViewController
+            window.makeKeyAndVisible()
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -42,7 +66,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        let facebookDidHandle = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options)
+        let googleDidHandle = GIDSignIn.sharedInstance().handle(url,
+                                                                sourceApplication:options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
+                                                                annotation: [:])
+        
+        return facebookDidHandle || googleDidHandle
+    }
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url,
+                                                 sourceApplication: sourceApplication,
+                                                 annotation: annotation)
+    }
 }
 
