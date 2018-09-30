@@ -22,15 +22,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Use Firebase library to configure APIs
         FirebaseApp.configure()
+        
+        let db = Firestore.firestore()
+        
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
         GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
         
         let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let signInView = storyBoard.instantiateViewController(withIdentifier: "SignInView")
+        let initializeView = storyBoard.instantiateViewController(withIdentifier: "InitializeView")
         let mainView = storyBoard.instantiateViewController(withIdentifier: "MainView")
         
-        if Auth.auth().currentUser != nil {
-            configureWindowAndMakeVisible(rootViewController: mainView)
+        let user = Auth.auth().currentUser
+        
+        if user != nil {
+            // User is signed in
+            // [START get_document]
+            let docRef = db.collection("users").document(user!.uid)
+
+            docRef.getDocument { (document, error) in
+                if let document = document, document.exists {
+                    self.configureWindowAndMakeVisible(rootViewController: mainView)
+                } else {
+                    // Document does not exist
+                    self.configureWindowAndMakeVisible(rootViewController: initializeView)
+                }
+            }
+            // [END get_document]
         } else {
             configureWindowAndMakeVisible(rootViewController: signInView)
         }

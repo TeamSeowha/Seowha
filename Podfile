@@ -8,11 +8,14 @@ target 'seowha' do
   # Pods for seowha
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
   
   pod 'FacebookCore'
   pod 'FacebookLogin'
   pod 'FacebookShare'
   pod 'GoogleSignIn'
+  
+  pod 'iCarousel'
 
   target 'seowhaTests' do
     inherit! :search_paths

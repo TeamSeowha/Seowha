@@ -11,6 +11,8 @@ import UIKit
 import Firebase
 
 class SignUpViewController: UIViewController, UITextFieldDelegate {
+    var db: Firestore!
+    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var passwordConfirmTextField: UITextField!
@@ -19,6 +21,8 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        db = Firestore.firestore()
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard (_:)))
         self.view.addGestureRecognizer(tapGesture)
@@ -69,7 +73,18 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
                                 }
                                 
                                 // User is signed in
-                                self.goToMainView()
+                                // [START get_document]
+                                let docRef = self.db.collection("users").document(Auth.auth().currentUser!.uid)
+                                
+                                docRef.getDocument { (document, error) in
+                                    if let document = document, document.exists {
+                                        self.goToMainView()
+                                    } else {
+                                        // Document does not exist
+                                        self.goToInitializeView()
+                                    }
+                                }
+                                // [END get_document]
                             }
                         } else {
                             showAlert(title: "회원가입 오류", message: "개인정보 수집 이용에 동의해야 합니다")
@@ -112,6 +127,12 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         emailTextField.resignFirstResponder()
         passwordTextField.resignFirstResponder()
         passwordConfirmTextField.resignFirstResponder()
+    }
+    
+    func goToInitializeView() {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let initializeView = storyBoard.instantiateViewController(withIdentifier: "InitializeView")
+        self.present(initializeView, animated: true, completion: nil)
     }
     
     func goToMainView() {

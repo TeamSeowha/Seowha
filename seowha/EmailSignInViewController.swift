@@ -11,12 +11,16 @@ import UIKit
 import Firebase
 
 class EmailSignInViewController: UIViewController, UITextFieldDelegate {
+    var db: Firestore!
+    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var signInButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        db = Firestore.firestore()
 
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard (_:)))
         self.view.addGestureRecognizer(tapGesture)
@@ -84,7 +88,18 @@ class EmailSignInViewController: UIViewController, UITextFieldDelegate {
                     }
                     
                     // User is signed in
-                    self.goToMainView()
+                    // [START get_document]
+                    let docRef = self.db.collection("users").document(Auth.auth().currentUser!.uid)
+                    
+                    docRef.getDocument { (document, error) in
+                        if let document = document, document.exists {
+                            self.goToMainView()
+                        } else {
+                            // Document does not exist
+                            self.goToInitializeView()
+                        }
+                    }
+                    // [END get_document]
                 }
             } else {
                 showAlert(title: "로그인 오류", message: "비밀번호를 입력하세요")
@@ -92,6 +107,12 @@ class EmailSignInViewController: UIViewController, UITextFieldDelegate {
         } else {
             showAlert(title: "로그인 오류", message: "이메일을 입력하세요")
         }
+    }
+    
+    func goToInitializeView() {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let initializeView = storyBoard.instantiateViewController(withIdentifier: "InitializeView")
+        self.present(initializeView, animated: true, completion: nil)
     }
     
     func goToMainView() {

@@ -16,6 +16,8 @@ import GoogleSignIn
 import FBSDKLoginKit
 
 class SignInViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
+    var db: Firestore!
+    
     @IBOutlet weak var facebookSignInButton: UIButton!
     @IBOutlet weak var googleSignInButton: GIDSignInButton!
     @IBOutlet weak var emailSignInButton: UIButton!
@@ -23,6 +25,8 @@ class SignInViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        db = Firestore.firestore()
         
         self.setNeedsStatusBarAppearanceUpdate()
         
@@ -122,8 +126,26 @@ class SignInViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDele
             }
             
             // User is signed in
-            self.goToMainView()
+            // [START get_document]
+            let docRef = self.db.collection("users").document(Auth.auth().currentUser!.uid)
+            
+            docRef.getDocument { (document, error) in
+                if let document = document, document.exists {
+                    print("document exists")
+                    self.goToMainView()
+                } else {
+                    // Document does not exist
+                    self.goToInitializeView()
+                }
+            }
+            // [END get_document]
         }
+    }
+    
+    func goToInitializeView() {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let initializeView = storyBoard.instantiateViewController(withIdentifier: "InitializeView")
+        self.present(initializeView, animated: true, completion: nil)
     }
     
     func goToMainView() {
