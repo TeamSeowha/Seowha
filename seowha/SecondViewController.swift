@@ -48,6 +48,10 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         self.navigationController?.navigationBar.layer.shadowOpacity = 1.0
         self.navigationController?.navigationBar.layer.masksToBounds = false
         
+        let backItem = UIBarButtonItem()
+        backItem.title = "뒤로가기"
+        navigationItem.backBarButtonItem = backItem
+        
         tableView.separatorStyle = .none
         
         tableView.delegate = self
@@ -79,6 +83,12 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
                 self.tableView.reloadData()
             }
         }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let activityViewController = ActivityViewController(nibName: "ActivityViewController", bundle: nil)
+        activityViewController.activity = filtered[indexPath.row].data()
+        self.navigationController?.pushViewController(activityViewController, animated: true)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

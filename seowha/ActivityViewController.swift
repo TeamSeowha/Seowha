@@ -32,7 +32,7 @@ class ActivityViewController: UIViewController {
         activityImageView.contentMode = .scaleAspectFill
         activityImageView.clipsToBounds = true
         
-        if activity["image_url"] is NSNull {
+        if activity["image_url"] is NSNull || activity["image_url"] == nil {
             activityImageView.image = UIImage(named: "launch.jpg")
         } else {
             activityImageView.downloaded(from: activity["image_url"] as! String, contentMode: .scaleAspectFill)
